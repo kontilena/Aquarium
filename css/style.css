@@ -1,0 +1,200 @@
+@font-face{
+    font-family: 'Asap-Bold';
+    src: url(../fontface/Asap/Asap-Bold.ttf);
+}
+@font-face{
+    font-family: 'Asap-BoldItalic';
+    src: url(../fontface/Asap/Asap-BoldItalic.ttf);
+}
+@font-face{
+    font-family: 'Asap-Italic';
+    src: url(../fontface/Asap/Asap-Italic.ttf);
+}
+@font-face{
+    font-family: 'Asap-Regular';
+    src: url(../fontface/Asap/Asap-Regular.ttf);
+}
+@font-face{
+    font-family: 'DroidSans-Bold';
+    src: url(../fontface/Droid_Sans/DroidSans-Bold.ttf);
+}
+@font-face{
+    font-family: 'DroidSans';
+    src: url(../fontface/Droid_Sans/DroidSans.ttf);
+}
+@font-face{
+    font-family: 'OleoScript-Bold';
+    src: url(../fontface/Oleo_Script/OleoScript-Bold.ttf);
+}
+@font-face{
+    font-family: 'OleoScript-Regular';
+    src: url(../fontface/Oleo_Script/OleoScript-Regular.ttf);
+}
+body{
+    font-family: 'DroidSans';
+    margin: 0;
+    color: white;
+    background-color: #071B2F;
+}
+header{
+    background: url(../img/header-background.png);
+    font-family: 'OleoScript-Regular';
+    
+}
+header>div{
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    float: right;
+    margin-top: -20px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: space-between;
+}
+.name{
+    margin-top: -30px;
+}
+.header_url{
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    float: right;
+    margin: 5px 0 0 0;
+    justify-content: flex-end;
+}
+header h1{
+    float: left;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+header h6{
+    padding: 0 20px;
+    margin: 5px;
+}
+.menu p{
+    font-size: 5px;
+}
+.block_2 img{
+   width: 20%;
+   height: 20%;
+}
+.block_2 div{
+    display: flex;
+    justify-content: stretch;
+}
+footer{
+    background: url(../img/header-background.png);
+    height: 64px;
+    font-size: 8px;
+}
+footer>div{
+    background: url(../img/header-background.png);
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'OleoScript-Regular';
+    margin: 0;
+}
+h1{
+    font-size: 48px;
+}
+.block_3 p{
+    font-family: 'DroidSans-Bold';
+
+}
+.block_3{
+    text-align: center;
+}
+.block_3 div{
+    max-width: 860px;
+    margin: 0 auto;
+}
+.block_4{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.fish{
+    background: url(../img/wrapper1-background.png);
+    width: 31%;
+    display: flex;
+    padding: 20px 10px;
+}
+p{
+    font-size: 10px;
+}
+.fish img{
+    width: 30%;
+    height: 30%;
+    margin-right: 5px;
+}
+.block_5{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.block_5>div{
+    width: 29%;
+    padding-right: 60px;
+}
+.button{
+    background-color: #4BA5EE;
+}
+p.button {
+    padding: 5px 10px;
+    float: left;
+}
+.data{
+    color: #4BA5EF;
+}
+.news{
+    border-right: 1px solid #1B2D40;
+    border-left: 1px solid #1B2D40;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.block_5 h2{
+    margin-bottom: 20px;
+}
+.info{
+    display: flex;
+    margin-bottom: 15px;
+}
+.lat{
+    display: flex;
+    flex-direction: column;
+    
+}
+.info img{
+    width: 25%;
+    height: 25%;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.info p{
+    align-items: center;
+}
